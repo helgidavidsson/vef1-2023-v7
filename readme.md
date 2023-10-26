@@ -64,10 +64,21 @@ Sjá fyrirmynd úr sýnilausn í `v7-fyrirmynd.mp4`.
 
 ## Netlify
 
-Skila skal verkefninu keyrandi á Netlify. Gefið er `build` script í `package.json` og setja upp build ferli þ.a. mappa sem verður til í `build` ferli sé notuð fyrir vef. Þetta verður til þess að þau gögn sem eru i möppu og eru ekki fyrir almenning (t.d. `package.json`) eru ekki birt, heldur aðeins:
+Skila skal verkefninu keyrandi á Netlify. Gefið er `build` script í `package.json` og setja upp build ferli þ.a. mappa sem verður til í `build` ferli sé notuð fyrir vef. Þetta verður til þess að þau gögn sem eru i möppu og eru ekki fyrir almenning (t.d. `package.json`) eru ekki birt, heldur aðe
+
+Gefinn er grunnur að verkefni:
+
+- `package.json` með:
+
+  - skilgreindum ins:
 
 - `index.html`
 - `scripts.js`
+
+Gefinn er grunnur að verkefni:
+
+- `package.json` með:
+  - skilgreindum
 
 ## Mat
 

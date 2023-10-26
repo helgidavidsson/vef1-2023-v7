@@ -163,7 +163,13 @@ function addProduct() {
     price,
   };
 
-  products.push(product);
+  products/**
+  * @typedef {Object} Product
+  * @property {number} id Auðkenni vöru, jákvæð heiltala stærri en 0.
+  * @property {string} title Titill vöru, ekki tómur strengur.
+  * @property {string} description Lýsing á vöru, ekki tómur strengur.
+  * @property {number} price Verð á vöru, jákvæð heiltala stærri en 0.
+  */.push(product);
 
   console.info(`Vöru bætt við:\n${formatProduct(product)}`);
 }
